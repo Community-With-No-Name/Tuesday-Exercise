@@ -62,3 +62,6 @@ nav {
 a {
     text-decoration: none;
 }
+nav {
+    padding-bottom: 15px;
+}
