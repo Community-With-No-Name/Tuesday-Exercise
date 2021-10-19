@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    background-color: #fff;
+}
+@font-face {
+    font-family: Dosis;
+    src: url(../fonts/Dosis-Regular.ttf);
+}
+* {
+    font-family: "Dosis", sans-serif;
+}
+.brand {
+    /* font-size: 30px; */
+    /* font-weight: bolder; */
+    margin: 0px 5px;
+    /* height: "initial" */
+}
+.brand img {
+    height: 45px;
+}
+.login {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 1px rgba(0, 0, 0, .1);
+    height: 40px;
+}
+#header {
+    height: 100vh;
+    background-image: url('../img/i17.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero {
+    height: 90vh;
+    background-color: rgba(0,0,0, .4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.brand_name {
+    font-size: 50px;
+}
+.brand_text {
+    font-size: 28px;
+}
+.brand_name, .brand_text {
+    padding-left: 20px;
+}

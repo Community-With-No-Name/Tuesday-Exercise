@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Dosis;
+    src: url(../fonts/Dosis-Regular.ttf);
+}
+* {
+    font-family: "Dosis", sans-serif;
+}
+.container {
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    height: 100px;
+}
+.form-group {
+    margin: 20px 0px;
+    width: 100%;
+}
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    width: 100%;
+}
+.form-input {
+    height: 1.5rem;
+    border: 0px;
+    border-bottom: 1px solid grey;
+    /* border-radius: 25px; */
+}
+.form-input:focus {
+    /* border: 0px; */
+    border-bottom: 1px solid black;
+    outline: none;
+}
+form {
+    width: 80%;
+}
+.w-full {
+    width: 100%;
+}
+.btn {
+    outline: none;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    border-radius: 25px;
+    border: 0px;
+    padding: 8px 0px;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: all .5s;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    /* transform: scale(1.1); */
+}
+.scale {
+    transition: all .5s;
+}
+.scale:hover {
+    transform: scale(1.1);
+}
+.form-input::placeholder {
+    color: #aaa;
+    font-size: 15px;
+}
